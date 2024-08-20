@@ -18,8 +18,7 @@ You start by initializing the Defender for Endpoint environment. Next, you onboa
 
 >**Note:** Make sure you have completed successfully Task 3 of the previous module.
 
->**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Deploy%20Microsoft%20Defender%20for%20Endpoint)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same. 
-
+>**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Deploy%20Microsoft%20Defender%20for%20Endpoint)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same.
 
 ### Task 1: Initialize Microsoft Defender for Endpoint
 
@@ -29,7 +28,7 @@ In this task, you'll perform the initialization of the Microsoft Defender for En
 
 1. If you aren't already at the Microsoft Defender XDR portal, start the Microsoft Edge browser.
 
-1. In the Microsoft Edge browser, go to the Defender XDR portal at (https://security.microsoft.com).
+1. In the Microsoft Edge browser, go to the Defender XDR portal at <https://security.microsoft.com>.
 
 1. In the **Sign in** dialog box, copy, and paste in the tenant Email account for the admin username provided by your lab hosting provider and then select **Next**.
 
@@ -43,10 +42,9 @@ In this task, you'll perform the initialization of the Microsoft Defender for En
 
     >**Note:** If you do not see the **Device discovery** option under **Settings**, logout by selecting the top-right circle with your account initials and select **Sign out**. Other options that you might want to try is to refresh the page with Ctrl+F5 or open the page InPrivate. Login again with the **Tenant Email** credentials.
 
-1. In Discovery setup, make sure **Standard discovery (recommended)** is selected. 
+1. In Discovery setup, make sure **Standard discovery (recommended)** is selected.
 
     >**Hint:** If you do not see the option, refresh the page.
-
 
 ### Task 2: Onboard a Device
 
@@ -60,11 +58,10 @@ In this task, you'll onboard a device to Microsoft Defender for Endpoint using a
 
 1. In the "1. Onboard a device" area make sure "Local Script (for up to 10 devices)" is displayed in the Deployment method drop-down and select the **Download onboarding package** button.
 
-1. Under the *Downloads* pop-up, highlight the "WindowsDefenderATPOnboardingPackage.zip" file with your mouse and select the folder icon **Show in folder**. **Hint:** In case you don't see it, the file should be in the c:\users\admin\downloads directory.
+1. Under the *Downloads* pop-up, highlight the "WindowsDefenderATPOnboardingPackage.zip" file with your mouse and select the folder icon **Show in folder**. **Hint:** In case you don't see it, the file should be in the 'C:\Users\Admin\Downloads' directory.
 
     >**Tip:**
     > If your browser blocks the download, take action in the browser to allow it. In the Microsoft Edge Browser, you may see the message, "*WindowsDefenderATPOnboardingPackage.zip isn't commonly downloaded. Make sure you trust...*, select the ellipsis button (...) if needed and then select **Keep**. In Microsoft Edge a second pop-up appears with the message,"*Make sure you trust WindowsDefenderATPOnboardingPackage.zip before you open it*", select **Show more** to expand the selections and select **Keep anyway**.
-
 
 1. Right-click the downloaded zip file and select **Extract All...**, make sure that *Show extracted files when complete* is checked and select **Extract**.
 
@@ -75,7 +72,6 @@ In this task, you'll onboard a device to Microsoft Defender for Endpoint using a
 1. When the "User Account Control" window is shown, select **Yes** to allow the script to run and answer **Y** to the question presented by the script and press **Enter**. When complete you should see a message in the command screen that says *Successfully onboarded machine to Microsoft Defender for Endpoint*.
 
 1. Press any key to continue. This closes the Command Prompt window.
-
 
 ### Task 3: Configure Roles
 

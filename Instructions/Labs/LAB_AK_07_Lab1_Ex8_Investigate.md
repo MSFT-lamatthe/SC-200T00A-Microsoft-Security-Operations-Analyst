@@ -14,8 +14,7 @@ You are a Security Operations Analyst working at a company that implemented Micr
 
 An incident can include multiple alerts. It is an aggregation of all the relevant evidence for a specific investigation. The properties related to the alerts, such as severity and status, are set at the incident level. After you let Microsoft Sentinel know what kinds of threats you are looking for and how to find them, you can monitor detected threats by investigating incidents.
 
->**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Investigate%20incidents)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same. 
-
+>**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Investigate%20incidents)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same.
 
 ### Task 1: Investigate an incident
 
@@ -23,7 +22,7 @@ In this task, you will investigate an incident.
 
 1. Log in to WIN1 virtual machine as Admin with the password: **Pa55w.rd**.  
 
-1. In the Edge browser, navigate to the Azure portal at https://portal.azure.com.
+1. In the Edge browser, navigate to the Azure portal at <https://portal.azure.com>.
 
 1. In the **Sign in** dialog box, copy and paste in the **Tenant Email** account provided by your lab hosting provider and then select **Next**.
 
@@ -91,7 +90,7 @@ In this task, you will investigate an incident.
 
 1. Close the investigation graph by selecting the **X** icon at the top right of the page.
 
-1. Back in the incident page, in the left pane select **Active Status** and select **Closed**. 
+1. Back in the incident page, in the left pane select **Active Status** and select **Closed**.
 
 1. In the *Select classification* drop-down review the different options. After that, select **True positive - suspicious activity** and then select **Apply**.
 

@@ -12,9 +12,7 @@ lab:
 
 You are going to simulate the attacks that you will later use to detect and investigate in Microsoft Sentinel.
 
-
->**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Perform%20simulated%20attacks)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same. 
-
+>**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Perform%20simulated%20attacks)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same.
 
 ### Task 1: Persistence Attack with Registry Key Add
 
@@ -46,7 +44,6 @@ In this task, you will perform attacks on the host connected with Azure Arc and 
     REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "SOC Test" /t REG_SZ /F /D "C:\temp\startup.bat"
     ```
 
-
 ### Task 2: Privilege Elevation Attack with User Add
 
 1. Copy and run this command to simulate the creation of an Admin account. Remember to press Enter after the last row:
@@ -56,7 +53,6 @@ In this task, you will perform attacks on the host connected with Azure Arc and 
     net user theusernametoadd ThePassword1!
     net localgroup administrators theusernametoadd /add
     ```
-
 
 ### Task 3: Command and Control Attack with DNS
 
@@ -112,9 +108,9 @@ In this task, you will perform attacks on the host connected with Azure Arc and 
     Until ($TimeNow -ge $RunEnd)
     ```
 
-1. In the Notepad menu, select **File** and then **Save**. 
+1. In the Notepad menu, select **File** and then **Save**.
 
-1. Go back to the Command Prompt window, enter the following command and press Enter. 
+1. Go back to the Command Prompt window, enter the following command and press Enter.
 
     >**Note:** You will see DNS resolve errors. This is expected.
 
@@ -123,6 +119,5 @@ In this task, you will perform attacks on the host connected with Azure Arc and 
     ```
 
 >**Important:** Do not close these windows. Let this PowerShell script run in the background. The command needs to generate log entries for some hours. You can proceed to the next task and next exercises while this script runs. The data created by this task will be used in the Threat Hunting lab later. This process will not create substantial amounts of data or processing.
-
 
 ## Proceed to Exercise 7

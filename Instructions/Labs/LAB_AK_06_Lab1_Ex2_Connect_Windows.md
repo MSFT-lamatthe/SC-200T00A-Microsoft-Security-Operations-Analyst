@@ -12,8 +12,7 @@ lab:
 
 You're a Security Operations Analyst working at a company that implemented Microsoft Sentinel. You must learn how to connect log data from the many data sources in your organization. The next source of data is Windows virtual machines inside and outside of Azure, like On-Premises environments or other Public Clouds.
 
->**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Connect%20Windows%20devices%20to%20Microsoft%20Sentinel%20using%20data%20connectors)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same. 
-
+>**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Connect%20Windows%20devices%20to%20Microsoft%20Sentinel%20using%20data%20connectors)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same.
 
 ### Task 1: Create a Windows Virtual Machine in Azure
 
@@ -21,7 +20,7 @@ In this task, you'll create a Windows virtual machine in Azure.
 
 1. Login to **WIN1** virtual machine as Admin with the password: **Pa55w.rd**.  
 
-1. In the Microsoft Edge browser, navigate to the Azure portal at https://portal.azure.com.
+1. In the Microsoft Edge browser, navigate to the Azure portal at <https://portal.azure.com>.
 
 1. In the **Sign in** dialog box, copy, and paste in the **Tenant Email** account provided by your lab hosting provider and then select **Next**.
 
@@ -41,7 +40,7 @@ In this task, you'll create a Windows virtual machine in Azure.
 
 1. Select **Create new** for *Resource group*, enter RG-AZWIN01 as Name and select **OK**.
 
-    >**Note:** This will be a new resource group for tracking purposes. 
+    >**Note:** This will be a new resource group for tracking purposes.
 
 1. In *Virtual machine name*, enter AZWIN01.
 

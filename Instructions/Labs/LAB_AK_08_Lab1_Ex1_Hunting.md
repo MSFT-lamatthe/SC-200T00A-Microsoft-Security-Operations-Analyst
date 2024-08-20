@@ -16,8 +16,7 @@ You are a Security Operations Analyst working at a company that implemented Micr
 
 >**Note:** Because you already experienced the process of exploring data in a previous module, this lab provides a KQL statement to start with.
 
->**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Perform%20threat%20hunting%20in%20Microsoft%20Sentinel)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same. 
-
+>**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Perform%20threat%20hunting%20in%20Microsoft%20Sentinel)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same.
 
 ### Task 1: Create a hunting query
 
@@ -35,7 +34,7 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 1. Select your Microsoft Sentinel Workspace.
 
-1. Select **Logs** 
+1. Select **Logs**
 
 1. Enter the following KQL Statement in the *New Query 1* space:
 
@@ -66,7 +65,7 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 1. In the *Add bookmark* blade, select **Create**. We will map this bookmark to an incident later.
 
-1. Close the *Logs* window by selecting the **X** in the top-right of the window and select **OK** to discard the changes. 
+1. Close the *Logs* window by selecting the **X** in the top-right of the window and select **OK** to discard the changes.
 
 1. Select your Microsoft Sentinel workspace again and select the **Hunting** page under the *Threat Management* area.
 
@@ -103,11 +102,11 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 1. Select the **View Results** button from the right pane. The KQL query will automatically run.
 
-1. Close the *Logs* window by selecting the **X** in the top-right of the window and select **OK** to discard the changes. 
+1. Close the *Logs* window by selecting the **X** in the top-right of the window and select **OK** to discard the changes.
 
 1. Right-click the **PowerShell Hunt** query and select **Add to livestream**. **Hint:** This also can be done by sliding right and selecting the ellipsis **(...)** at the end of the row to open a context menu.
 
-1. Review that the *Status* is now *Running*. This will be running every 30 seconds in the background and you will receive a notification in the Azure Portal (bell icon) when a new result is found. 
+1. Review that the *Status* is now *Running*. This will be running every 30 seconds in the background and you will receive a notification in the Azure Portal (bell icon) when a new result is found.
 
 1. Select the **Bookmarks** tab in the middle pane.
 
@@ -117,7 +116,7 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 1. Explore the Investigation graph just like you did a the previous module. Notice the high number of *Related alerts* for *WINServer*.
 
-1. Close the *Investigation* graph window by selecting the **X** in the top-right of the window. 
+1. Close the *Investigation* graph window by selecting the **X** in the top-right of the window.
 
 1. Hide the right blade by selecting the **>>** icon and then scroll right until you see the ellipsis **(...)** icon.
 
@@ -127,12 +126,11 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 1. Scroll left to notice that the *Severity* column is now populated with the incident's data.
 
-
 ### Task 2: Create a NRT query rule
 
 In this task, instead of using a LiveStream, you will create a NRT analytics query rule. NRT rules run every minute and lookback one minute. The benefit to NRT rules are they can use the alert and incident creation logic.
 
-1. Select the **Analytics** page under *Configuration* in Microsoft Sentinel. 
+1. Select the **Analytics** page under *Configuration* in Microsoft Sentinel.
 
 1. Select the **Create** tab, then **NRT query rule**.
 
@@ -145,7 +143,7 @@ In this task, instead of using a LiveStream, you will create a NRT analytics que
     |Tactics|**Command and Control**|
     |Severity|**High**|
 
-1. Select **Next: Set rule logic >** button. 
+1. Select **Next: Set rule logic >** button.
 
 1. For the *Rule query* enter the following KQL statement:
 
@@ -161,7 +159,7 @@ In this task, instead of using a LiveStream, you will create a NRT analytics que
 
 1. Select **View query results >** to make sure your query does not have any errors.
 
-1. Close the *Logs* window by selecting the **X** in the top-right of the window and select **OK** to discard the changes. 
+1. Close the *Logs* window by selecting the **X** in the top-right of the window and select **OK** to discard the changes.
 
 1. Select **Test with current data** under *Results simulation*. Notice the expected number of *Alerts per day*.
 
@@ -191,7 +189,7 @@ In this task, you will use a Search job to look for a C2.
 
 1. A new window running the query opens. Select the ellipsis icon **(...)** from the top right and then toggle the **Search job mode**.
 
-1. Select **Search job** button from the command bar. 
+1. Select **Search job** button from the command bar.
 
 1. The search job creates a new table with your results as soon as they arrive. The results can be consulted from the *Saved Searches* tab.
 

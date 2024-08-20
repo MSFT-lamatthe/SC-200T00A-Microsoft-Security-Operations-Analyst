@@ -10,12 +10,11 @@ lab:
 
 ![Lab overview.](../Media/SC-200-Lab_Diagrams_Mod7_L1_Ex10.png)
 
-You are a Security Operations Analyst working at a company that implemented Microsoft Sentinel. Once you have connected your data sources to Microsoft Sentinel, you can visualize and monitor the data using the Microsoft Sentinel adoption of Azure Monitor Workbooks, which provides versatility in creating custom dashboards. 
+You are a Security Operations Analyst working at a company that implemented Microsoft Sentinel. Once you have connected your data sources to Microsoft Sentinel, you can visualize and monitor the data using the Microsoft Sentinel adoption of Azure Monitor Workbooks, which provides versatility in creating custom dashboards.
 
 Microsoft Sentinel allows you to create custom workbooks across your data, and also comes with built-in workbook templates to allow you to quickly gain insights across your data as soon as you connect a data source.
 
->**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Create%20workbooks)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same. 
-
+>**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Create%20workbooks)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same.
 
 ### Task 1: Explore workbook templates
 
@@ -23,7 +22,7 @@ In this task, you will explore the Microsoft Sentinel workbook templates.
 
 1. Login to WIN1 virtual machine as Admin with the password: **Pa55w.rd**.  
 
-1. In the Edge browser, navigate to the Azure portal at https://portal.azure.com.
+1. In the Edge browser, navigate to the Azure portal at <https://portal.azure.com>.
 
 1. In the **Sign in** dialog box, copy and paste in the **Tenant Email** account provided by your lab hosting provider and then select **Next**.
 
@@ -41,12 +40,11 @@ In this task, you will explore the Microsoft Sentinel workbook templates.
 
 1. Close the workbook by selecting the **X** in the top-right corner.
 
-
 ### Task 2: Save and modify a workbook template
 
 In this task, you will save a workbook template and modify it.
 
-1. You should be back in the **Microsoft Sentinel - Workbooks - Templates** tab. Scroll down again and select the **Save** button for the *Azure Activity* workbook. 
+1. You should be back in the **Microsoft Sentinel - Workbooks - Templates** tab. Scroll down again and select the **Save** button for the *Azure Activity* workbook.
 
 1. Leave **East US** as the default value for *Region* and select **OK**.
 
@@ -66,10 +64,9 @@ In this task, you will save a workbook template and modify it.
 
 1. Select **Done Editing** at the bottom of the query (not the top menu).
 
-1. Now select **Done Editing** at the top menu and select the **Save** icon. 
+1. Now select **Done Editing** at the top menu and select the **Save** icon.
 
 1. Close the workbook by selecting the **X** in the top-right corner.
-
 
 ### Task 3: Create a Workbook
 
@@ -77,7 +74,7 @@ In this task, you will create a new workbook with advanced visualizations.
 
 1. You should be back at the **Workbooks** area of the Microsoft Sentinel portal.
 
-1. Select **+ Add workbook** to create a new workbook from scratch. 
+1. Select **+ Add workbook** to create a new workbook from scratch.
 
     >**Note:** Although it is a new workbook, a startup template is used.
 
@@ -111,7 +108,7 @@ In this task, you will create a new workbook with advanced visualizations.
 
 1. Now select **Advanced Settings** tab from the query's command bar.
 
-1. Select **Show refresh icon when not editing** box. 
+1. Select **Show refresh icon when not editing** box.
 
 1. Scroll down and select **Done Editing** on the bottom menu, for the new *Editing query item: query - 2*.
 
@@ -137,7 +134,7 @@ In this task, you will create a new workbook with advanced visualizations.
 
 1. Select the **RG-Defender** resource group if needed and leave other values as default.
 
-1.  Select **Apply** to commit the changes. 
+1. Select **Apply** to commit the changes.
 
 1. Close the workbook by selecting the **X** at the top-right or select **Workbooks** in the Microsoft Sentinel portal.
 

@@ -12,7 +12,7 @@ lab:
 
 You're a Security Operations Analyst working at a company that implemented Microsoft Sentinel. You must learn how to detect and mitigate threats using Microsoft Sentinel. Now, you want to respond and reMediate actions that can be run from Microsoft Sentinel as a routine.
 
-With a playbook, you can help automate and orchestrate your threat response, integrate with other systems both internal and external, and can be set to run automatically in response to specific alerts or incidents, when triggered by an analytics rule or an automation rule, respectively. 
+With a playbook, you can help automate and orchestrate your threat response, integrate with other systems both internal and external, and can be set to run automatically in response to specific alerts or incidents, when triggered by an analytics rule or an automation rule, respectively.
 
 >**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Create%20a%20playbook)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same.
 
@@ -22,7 +22,7 @@ In this task, you'll create a Microsoft Teams team for use in the lab.
 
 1. Log in to WIN1 virtual machine as Admin with the password: **Pa55w.rd**.  
 
-1. In the Microsoft Edge browser, open a new tab and navigate to the Microsoft Teams portal at (https://teams.microsoft.com).
+1. In the Microsoft Edge browser, open a new tab and navigate to the Microsoft Teams portal at (<https://teams.microsoft.com>).
 
 1. In the **Sign in** dialog box, copy and paste in the **Tenant Email** account provided by your lab hosting provider and then select **Next**.
 
@@ -42,12 +42,11 @@ In this task, you'll create a Microsoft Teams team for use in the lab.
 
 1. Give the team the name: type **SOC** and select the **Create** button.
 
-1. In the Add members to SOC screen, select the **Skip** button. 
+1. In the Add members to SOC screen, select the **Skip** button.
 
 1. Scroll down the Teams blade to locate the newly created SOC team, select the ellipsis **(...)** on the right side of the name and select **Add channel**.
 
 1. Enter a channel name of *New Alerts* then select the **Add** button.
-
 
 ### Task 2: Create a Playbook in Microsoft Sentinel
 
@@ -85,7 +84,7 @@ In this task, you'll create a Logic App that is used as a Playbook in Microsoft 
 
 1. Rename the *Playbook Name* to "PostMessageTeams-OnIncident" and select **Review + create**.
 
-1. Now select **Create**. 
+1. Now select **Create**.
 
     >**Note:** Wait for the deployment to finish before proceeding to the next task.
 

@@ -24,7 +24,7 @@ In this task, you will access your Microsoft Sentinel workspace.
 
 1. Start the Microsoft Edge browser.
 
-1. In the Edge browser, navigate to the Azure portal at https://portal.azure.com.
+1. In the Edge browser, navigate to the Azure portal at <https://portal.azure.com>.
 
 1. In the **Sign in** dialog box, copy, and paste in the **Tenant Email** account provided by your lab hosting provider and then select **Next**.
 
@@ -33,7 +33,6 @@ In this task, you will access your Microsoft Sentinel workspace.
 1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
 
 1. Select your Microsoft Sentinel Workspace you created in a previous lab.
-
 
 ### Task 2: Connect a Linux Host using the Common Event Format connector
 
@@ -53,7 +52,7 @@ In this task, you will connect a Linux host to Microsoft Sentinel with the Commo
 
 1. In the *Configuration* section, under the *Instructions* tab, copy to the clipboard the command shown in *1.2 Install the CEF collector on the Linux machine*.
 
-1. Launch your **LIN1** virtual machine. Login with the username and password provided by your lab hoster. **Hint:** You might need to press the Enter key to see the login prompt. 
+1. Launch your **LIN1** virtual machine. Login with the username and password provided by your lab hoster. **Hint:** You might need to press the Enter key to see the login prompt.
 
 1. Note the IP address for your LIN1 server. See the screenshot below as an example:
 
@@ -71,19 +70,17 @@ In this task, you will connect a Linux host to Microsoft Sentinel with the Commo
 
     ![linux login](../Media/PSconnectLinux.png)
 
-1. You are now ready to paste the *1.2 Install the CEF collector on the Linux machine* command from the earlier step. Make sure that script from Azure is in the clipboard. In PowerShell right-click the top bar and choose **Edit** and then **Paste**. 
+1. You are now ready to paste the *1.2 Install the CEF collector on the Linux machine* command from the earlier step. Make sure that script from Azure is in the clipboard. In PowerShell right-click the top bar and choose **Edit** and then **Paste**.
 
 1. Once pasted and before to press Enter, add the character **3** to the word *python* as shown below:
 
     ![ConnectorScript](../Media/ConnectorScript.png)
-
 
 1. Once the script is adjusted press Enter. The script will run against your Linux server remotely. When the script processes properly it should look like this screen:
 
     ![ConnectorScript](../Media/LinuxConnected.png)
 
 1. Type **exit** to close the remote shell connection to LIN1.
-
 
 ### Task 3: Connect a Linux host using the Syslog connector
 
@@ -140,7 +137,6 @@ In this task, you will connect a Linux host to Microsoft Sentinel with the Syslo
 1. Once the script is pasted, press Enter. The script will run against your Linux server remotely. Wait
 
 1. When it finished, type **exit** to close the remote shell connection to LIN2.
-
 
 ### Task 4: Configure the facilities you want to collect and their severities for the Syslog connector
 

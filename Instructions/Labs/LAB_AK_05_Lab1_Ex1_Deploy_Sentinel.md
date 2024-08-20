@@ -12,8 +12,7 @@ lab:
 
 You are a Security Operations Analyst working at a company that is implementing Microsoft Sentinel. You are responsible for setting up the Microsoft Sentinel environment to meet the company requirement to minimize cost, meet compliance regulations, and provide the most manageable environment for your security team to perform their daily job responsibilities.
 
->**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Configure%20your%20Microsoft%20Sentinel%20environment)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same. 
-
+>**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Configure%20your%20Microsoft%20Sentinel%20environment)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same.
 
 ### Task 1: Initialize the Microsoft Sentinel Workspace
 
@@ -23,7 +22,7 @@ In this task, you will create a Microsoft Sentinel workspace.
 
 1. Open the Edge browser.
 
-1. In the Edge browser, navigate to the Azure portal at https://portal.azure.com.
+1. In the Edge browser, navigate to the Azure portal at <https://portal.azure.com>.
 
 1. In the **Sign in** dialog box, copy and paste in the **Tenant Email** account provided by your lab hosting provider and then select **Next**.
 
@@ -90,11 +89,10 @@ In this task, you will create a watchlist in Microsoft Sentinel.
 1. Select the *HighValueHosts* watchlist and on the right pane, select **View in logs**.
 
     >**Important:** It could take up to ten minutes for the watchlist to appear. **Please continue to with the following task and run this command on the next lab**.
-    
+
     >**Note:** You can now use the _GetWatchlist('HighValueHosts') in your own KQL statements to access the list. The column to reference would be *Hostname*.
 
 1. Close the *Logs* window by selecting the 'x' in the top-right and select **OK** to discard the unsaved edits.
-
 
 ### Task 3: Create a Threat Indicator
 
@@ -104,7 +102,7 @@ In this task, you will create an indicator in Microsoft Sentinel.
 
 1. Select **+ Add New** from the command bar.
 
-1. Review the different indicator types available in the *Types* dropdown. Select the **domain-name**. 
+1. Review the different indicator types available in the *Types* dropdown. Select the **domain-name**.
 
 1. For Domain, enter a domain name, for example type *contoso.com*.
 
@@ -128,13 +126,12 @@ In this task, you will create an indicator in Microsoft Sentinel.
 
     >**Note:** It could take up to five minutes for the indicator to appear.
 
-1. Scroll the results to the right to see the DomainName column. You can also run the following KQL statement to just see the DomainName column. 
+1. Scroll the results to the right to see the DomainName column. You can also run the following KQL statement to just see the DomainName column.
 
     ```KQL
     ThreatIntelligenceIndicator 
     | project DomainName
     ```
-
 
 ### Task 4: Configure log retention
 
@@ -154,5 +151,4 @@ In this task, you will change the retention period for the SecurityEvent table.
 
 1. Select **Save** to apply the changes.
 
-
-## You have completed the lab.
+## You have completed the lab

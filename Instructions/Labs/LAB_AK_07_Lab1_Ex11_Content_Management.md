@@ -8,10 +8,9 @@ lab:
 
 ## Lab scenario
 
-You are a Security Operations Analyst working at a company that implemented Microsoft Sentinel. You already created Scheduled and Microsoft Security Analytics rules.  You need to centralize analytical rules in an Azure DevOps repository.  Then connect Sentinel to the Azure DevOps repository and import the content. 
+You are a Security Operations Analyst working at a company that implemented Microsoft Sentinel. You already created Scheduled and Microsoft Security Analytics rules.  You need to centralize analytical rules in an Azure DevOps repository.  Then connect Sentinel to the Azure DevOps repository and import the content.
 
->**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Use%20repositories%20in%20Microsoft%20Sentinel)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same. 
-
+>**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Use%20repositories%20in%20Microsoft%20Sentinel)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same.
 
 ### Task 1: Create and export an analytical rule
 
@@ -40,7 +39,6 @@ In this task, you will enable Entity behavior analytics in Microsoft Sentinel.
 1. Select **Notepad** and then select **OK**.
 
 1. Review the Azure Resource Manager template and the close it when done.
-
 
 ### Task 2: Create our Azure DevOps environment
 
@@ -80,8 +78,7 @@ In this task, you will create an Azure DevOps repository.
 
 1. Toggle **On** *Third-party application access via OAuth* under the *Application connection policies* area.
 
-
-### Task 3: Connect Sentinel to Azure DevOps.
+### Task 3: Connect Sentinel to Azure DevOps
 
 1. Select the *Azure Portal*/*Microsoft Sentinel* tab in your browser.
 
@@ -113,5 +110,4 @@ In this task, you will create an Azure DevOps repository.
 
     >**Note:** The *Failed* status is due to limitations in the hosted lab environment. You would normally see *Succeeded*. Then you can see in the *Analytics* the imported rule *Rule from Azure DevOps*.
 
-
-## You have completed the lab.
+## You have completed the lab

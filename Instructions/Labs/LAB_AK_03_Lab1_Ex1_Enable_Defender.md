@@ -12,8 +12,7 @@ lab:
 
 You're a Security Operations Analyst working at a company that is implementing cloud workload protection with Microsoft Defender for Cloud. In this lab, you enable Microsoft Defender for Cloud.
 
->**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Enable%20Microsoft%20Defender%20for%20Cloud)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same. 
-
+>**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Enable%20Microsoft%20Defender%20for%20Cloud)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same.
 
 ### Task 1: Access the Azure portal and set up a Subscription
 
@@ -29,11 +28,11 @@ In this task, you'll set up an Azure Subscription required to complete this lab 
 
 1. In the **Enter password** dialog box, copy, and paste in the admin's tenant password provided by your lab hosting provider and then select **Sign in**.
 
-1. In the Search bar of the Azure portal, type *Subscription*, then select **Subscriptions**. 
+1. In the Search bar of the Azure portal, type *Subscription*, then select **Subscriptions**.
 
 1. Select the *"Azure Pass - Sponsorship"* subscription shown (or equivalent name in your selected language).
 
-    >**Note:** If the subscription is not shown, ask your instructor on how to create the Azure subscription with your tenant admin user credentials. **Note:** The subscription creation process could take up to 10 minutes. 
+    >**Note:** If the subscription is not shown, ask your instructor on how to create the Azure subscription with your tenant admin user credentials. **Note:** The subscription creation process could take up to 10 minutes.
 
 1. Select **Access control (IAM)** and then select **Add role assignment** from the *Grant access to this resource* box.
 
@@ -46,7 +45,6 @@ In this task, you'll set up an Azure Subscription required to complete this lab 
 1. Select **Review + assign** twice to assign the owner role to your admin account.
 
 >**Important:** These labs have been designed to use less than USD $10 of Azure services during the class.
-
 
 ### Task 2: Create a Log Analytics Workspace
 
@@ -66,14 +64,13 @@ In this task, you create a Log Analytics workspace for use with Azure Monitoring
 
 1. Once the workspace validation has passed, select **Create**. Wait for the new workspace to be provisioned, this may take a few minutes.
 
-
 ### Task 3: Enable Microsoft Defender for Cloud
 
 In this task, you'll enable and configure Microsoft Defender for Cloud.
 
 1. In the Search bar of the Azure portal, type *Defender*, then select **Microsoft Defender for Cloud**.
 
-1. On the **Getting started** page, under the **Upgrade** tab, make sure your subscription is selected, and then select the **Upgrade** button at the bottom of the page. Wait for the *Trial started* notification to appear, it takes about 2 minutes. 
+1. On the **Getting started** page, under the **Upgrade** tab, make sure your subscription is selected, and then select the **Upgrade** button at the bottom of the page. Wait for the *Trial started* notification to appear, it takes about 2 minutes.
 
     >**Hint:** You can click the bell button on the top bar to review your Azure portal notifications.
 
@@ -81,7 +78,7 @@ In this task, you'll enable and configure Microsoft Defender for Cloud.
 
 1. In the left menu for Microsoft Defender for Cloud, under the Management, select **Environment settings**.
 
-1. Select the **"Azure Pass - Sponsorship"** subscription (or equivalent name in your Language). 
+1. Select the **"Azure Pass - Sponsorship"** subscription (or equivalent name in your Language).
 
 1. Review the Azure resources that are now protected with the Defender for Cloud plans.
 
@@ -100,7 +97,6 @@ In this task, you'll enable and configure Microsoft Defender for Cloud.
     >**Note:** If the page is not being displayed, refresh your Edge browser and try again.
 
 1. Close the Defender plans page by selecting the 'X' on the upper right of the page to go back to the **Environment settings**
-
 
 ### Task 4: Install Azure Arc on an On-Premises Server
 
@@ -163,7 +159,6 @@ In this task, you install Azure Arc on an on-premises server to make onboarding 
 1. Select **Refresh** until WINServer server name appears and the Status is *Connected*.
 
     >**Note:** This could take a couple of minutes.
-
 
 ### Task 5: Protect an On-Premises Server
 

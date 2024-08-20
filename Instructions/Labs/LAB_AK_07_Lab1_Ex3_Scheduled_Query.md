@@ -14,8 +14,7 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
 Analytics rules search for specific events or sets of events across your environment, alert you when certain event thresholds or conditions are reached, generate incidents for your SOC to triage and investigate, and respond to threats with automated tracking and reMediation processes.
 
->**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Create%20a%20scheduled%20query)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same. 
-
+>**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Create%20a%20scheduled%20query)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same.
 
 ### Task 1: Create a Scheduled Query
 
@@ -62,7 +61,7 @@ In this task, you create a scheduled query and connect it to the Teams channel y
 
 1. Under the *Event grouping* area, leave the **Group all events into a single alert** as the selected option since we want to generate a single alert every time it runs, as long as the query returns more results than the specified alert threshold above.
 
-1. Select the **Next: Incident settings >** button. 
+1. Select the **Next: Incident settings >** button.
 
 1. On the *Incident settings* tab, review the default options.
 
@@ -93,7 +92,6 @@ In this task, you create a scheduled query and connect it to the Teams channel y
 1. Select the **Next: Review and create >** button.
   
 1. Select **Save**.
-
 
 ### Task 2: Test your new rule
 
@@ -130,6 +128,5 @@ In this task, you test your new scheduled query rule.
 1. Select the Incident and review the information in the right blade.
 
 1. Go back to Microsoft Teams by selecting the tab in your Microsoft Edge browser. If you closed it, just open a new tab and type <https://teams.microsoft.com>. Go to the *SOC* Teams, select the *New Alerts* channel and see the message post about the incident.
-
 
 ## Proceed to Exercise 4

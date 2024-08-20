@@ -6,6 +6,8 @@ lab:
 
 # Learning Path 7 - Lab 1 - Exercise 5 - Understand Detection Modeling
 
+## Lab scenario
+
 ![Lab overview.](../Media/SC-200-Lab_Diagrams_Mod7_L1_Ex5.png)
 
 ### Task 1: Understand the Attacks
